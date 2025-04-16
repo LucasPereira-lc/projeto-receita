@@ -14,12 +14,9 @@ body {
 main.principal {
     display: flex;
     flex-flow: column nowrap;
-    width: 90vw;
     border-radius: 10px;
     background-color: white;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 h1, h2 {
@@ -32,8 +29,12 @@ p {
     text-align: justify;
 }
 
+strong {
+    color: rgba(14, 13, 13, 0.945);
+}
+
 header {
-    padding: 20px;
+    padding: 0px;
 }
 
 header > div.img {
@@ -42,13 +43,19 @@ header > div.img {
     background-size: cover;
     background-position: center center;
     height: 300px;
-    border-radius: 10px;
     margin-bottom: 20px;
 }
 
 header > h1 {
     font-size: 1.9em;
-   margin-bottom: 10px;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+header > p {
+    width: 80vw;
+    margin: auto;
 }
 
 article > div.preparation {
@@ -97,7 +104,7 @@ article > div.ingredientes {
 }
 
 article > div.ingredientes > h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin-bottom: 15px;
     color: hsl(14, 45%, 36%);
 }
@@ -109,7 +116,7 @@ article > div.ingredientes > ul {
 
 article > div.ingredientes > ul > li {
     position: relative;
-    padding-left: 30px;
+    padding-left: 35px;
     margin-bottom: 10px;
     font-family: "Outfit", sans-serif;
 }
@@ -121,6 +128,7 @@ article > div.ingredientes > ul > li:before {
     font-size: 1.3em;
     color: hsl(14, 45%, 36%);
     line-height: 1;
+    margin-left: 6px;
 }
 
 article > div.ingredientes > ul > li.pmeio:before {
@@ -135,9 +143,10 @@ article > div.instrucoes {
 }
 
 article > div.instrucoes > h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: hsl(14, 45%, 36%);
     margin-bottom: 15px;
+    margin-left: -25px;
 }
 
 article > div.instrucoes > ol > li::marker {
@@ -157,7 +166,7 @@ article > div.nutricao {
 }
 
 article > div.nutricao > h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: hsl(14, 45%, 36%);
     margin-bottom: 15px;
 }
