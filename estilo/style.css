@@ -90,7 +90,7 @@ article > div.preparation > ul > li.pmeio:before {
 }
 
 article > div.ingredientes {
-    margin: 20px;
+    margin: 0px 20px;
     margin-top: 25px;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(17, 17, 17, 0.247);
@@ -125,4 +125,39 @@ article > div.ingredientes > ul > li:before {
 
 article > div.ingredientes > ul > li.pmeio:before {
     top: 0.5em;
+}
+
+article > div.instrucoes {
+    margin: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.247);
+}
+
+article > div.instrucoes > h2 {
+    font-size: 1.5em;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+
+article > div.instrucoes > ol > li::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+article > div.instrucoes > ol > li {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+article > div.nutricao {
+    margin: 0px 20px 20px 20px;
+}
+
+article > div.nutricao > h2 {
+    font-size: 1.5em;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
 }
