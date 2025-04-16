@@ -14,10 +14,12 @@ body {
 main.principal {
     display: flex;
     flex-flow: column nowrap;
-    width: 80vw;
+    width: 90vw;
     border-radius: 10px;
     background-color: white;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1, h2 {
@@ -45,12 +47,13 @@ header > div.img {
 }
 
 header > h1 {
-    font-size: 1.7em;
+    font-size: 1.9em;
    margin-bottom: 10px;
 }
 
 article > div.preparation {
-    margin: 10px;
+    margin: 30px;
+    margin-bottom: 5px;
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(194, 100, 163, 0.233);
@@ -58,6 +61,7 @@ article > div.preparation {
 
 article > div.preparation > h3 {
     color: hsl(332, 51%, 32%);
+    margin: 10px 0px;
 }
 
 article > div.preparation > ul {
@@ -66,5 +70,59 @@ article > div.preparation > ul {
 }
 
 article > div.preparation > ul > li {
-    
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+article > div.preparation > ul > li:before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: hsl(332, 51%, 32%);
+    font-size: 1.3em;
+    line-height: 1;
+}
+
+article > div.preparation > ul > li.pmeio:before {
+    top: 0.5em;
+}
+
+article > div.ingredientes {
+    margin: 20px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.247);
+}
+
+article > div.ingredientes > h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: hsl(14, 45%, 36%);
+}
+
+article > div.ingredientes > ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+article > div.ingredientes > ul > li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+article > div.ingredientes > ul > li:before {
+    position: absolute;
+    content: '\2022';
+    left: 0;
+    font-size: 1.3em;
+    color: hsl(14, 45%, 36%);
+    line-height: 1;
+}
+
+article > div.ingredientes > ul > li.pmeio:before {
+    top: 0.5em;
 }
