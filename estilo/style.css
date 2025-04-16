@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: justify;
 }
 
@@ -160,4 +160,30 @@ article > div.nutricao > h2 {
     font-size: 1.5em;
     color: hsl(14, 45%, 36%);
     margin-bottom: 15px;
+}
+
+article > div.nutricao > p {
+    width: 80vw;
+    margin-bottom: 10px;
+}
+
+article > div.nutricao > table {
+    width: 80vw;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+article > div.nutricao > table > tr, td {
+    border-bottom: 1px solid rgba(17, 17, 17, 0.247);
+    padding: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+article > div.nutricao > table > tr, td.nome {
+    padding-left: 30px;
+}
+
+td.quant {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
 }
