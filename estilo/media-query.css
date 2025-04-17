@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) and (max-width: 992px) {
+
+    body {
+        background-color: hsl(30, 54%, 90%);
+    }
+
+    main.principal {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90vw;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    header {
+        padding: 30px;
+    }
+
+    header > div.img {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-color: hsl(30, 54%, 90%);
+    }
+
+    main.principal {
+        width: 900px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+}
