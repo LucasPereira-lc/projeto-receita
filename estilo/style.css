@@ -12,8 +12,6 @@ body {
 }
 
 main.principal {
-    display: flex;
-    flex-flow: column nowrap;
     border-radius: 10px;
     background-color: white;
     margin: auto;
@@ -50,12 +48,13 @@ header > h1 {
     font-size: 1.9em;
     width: 80vw;
     margin: auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 header > p {
     width: 80vw;
     margin: auto;
+    display: block;
 }
 
 article > div.preparation {
