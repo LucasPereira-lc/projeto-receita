@@ -160,6 +160,7 @@ article > div.instrucoes > ol > li::marker {
 }
 
 article > div.instrucoes > ol > li {
+    width: 90%;
     padding-left: 12px;
     margin-bottom: 10px;
     text-align: justify;
