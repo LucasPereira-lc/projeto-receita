@@ -15,11 +15,13 @@ main.principal {
     border-radius: 10px;
     background-color: white;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 h1, h2 {
     font-family: "Young Serif", serif;
     font-weight: normal;
+    font-size: 1.6em;
 }
 
 p {
@@ -29,10 +31,6 @@ p {
 
 strong {
     color: rgba(14, 13, 13, 0.945);
-}
-
-header {
-    padding: 0px;
 }
 
 header > div.img {
@@ -45,7 +43,7 @@ header > div.img {
 }
 
 header > h1 {
-    font-size: 1.9em;
+    font-size: 2em;
     margin-bottom: 10px;
     padding-left: 20px;
 }
@@ -66,6 +64,8 @@ article > div.preparation {
 article > div.preparation > h3 {
     color: hsl(332, 51%, 32%);
     margin: 10px 0px;
+    padding-left: 20px;
+    font-size: 1.2em;
 }
 
 article > div.preparation > ul {
@@ -75,7 +75,7 @@ article > div.preparation > ul {
 
 article > div.preparation > ul > li {
     position: relative;
-    padding-left: 30px;
+    padding-left: 57px;
     margin-bottom: 10px;
     font-family: "Outfit", sans-serif;
 }
@@ -87,10 +87,17 @@ article > div.preparation > ul > li:before {
     color: hsl(332, 51%, 32%);
     font-size: 1.3em;
     line-height: 1;
+    padding-left: 27px;
 }
 
 article > div.preparation > ul > li.pmeio:before {
     top: 0.5em;
+}
+
+article > div.preparation > ul > li.pmeio {
+    width: 200px;
+    transition: width .4s;
+    transition-timing-function: ease;
 }
 
 article > div.ingredientes {
@@ -101,9 +108,9 @@ article > div.ingredientes {
 }
 
 article > div.ingredientes > h2 {
-    font-size: 1.6em;
     margin-bottom: 15px;
     color: hsl(14, 45%, 36%);
+    padding-left: 10px;
 }
 
 article > div.ingredientes > ul {
@@ -113,7 +120,7 @@ article > div.ingredientes > ul {
 
 article > div.ingredientes > ul > li {
     position: relative;
-    padding-left: 35px;
+    padding-left: 48px;
     margin-bottom: 10px;
     font-family: "Outfit", sans-serif;
 }
@@ -125,7 +132,7 @@ article > div.ingredientes > ul > li:before {
     font-size: 1.3em;
     color: hsl(14, 45%, 36%);
     line-height: 1;
-    margin-left: 6px;
+    margin-left: 15px;
 }
 
 article > div.ingredientes > ul > li.pmeio:before {
@@ -134,13 +141,12 @@ article > div.ingredientes > ul > li.pmeio:before {
 
 article > div.instrucoes {
     margin: 20px;
-    padding-left: 25px;
+    padding-left: 37px;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(17, 17, 17, 0.247);
 }
 
 article > div.instrucoes > h2 {
-    font-size: 1.6em;
     color: hsl(14, 45%, 36%);
     margin-bottom: 15px;
     margin-left: -25px;
@@ -153,7 +159,7 @@ article > div.instrucoes > ol > li::marker {
 }
 
 article > div.instrucoes > ol > li {
-    padding-left: 20px;
+    padding-left: 12px;
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -163,18 +169,19 @@ article > div.nutricao {
 }
 
 article > div.nutricao > h2 {
-    font-size: 1.6em;
     color: hsl(14, 45%, 36%);
     margin-bottom: 15px;
+    padding-left: 12px;
 }
 
 article > div.nutricao > p {
     width: 80vw;
     margin-bottom: 10px;
+    padding-left: 12px;
 }
 
 article > div.nutricao > table {
-    width: 80vw;
+    width: 90%;
     margin: auto;
     border-collapse: collapse;
 }
@@ -192,4 +199,9 @@ article > div.nutricao > table > tr, td.nome {
 td.quant {
     color: hsl(14, 45%, 36%);
     font-weight: bold;
+    width: 50%;
+}
+
+td.ultimal {
+    border-bottom: 4px solid rgb(216, 18, 18);
 }

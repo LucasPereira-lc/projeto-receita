@@ -17,6 +17,7 @@
 
     header {
         padding: 20px;
+        padding-bottom: 0px;
     }
 
     header > div.img {
@@ -25,5 +26,13 @@
 
     header > p {
         width: 90%;
+    }
+
+    article > div.preparation > ul > li.pmeio {
+        width: 500px;
+    }
+
+    article > div.preparation > ul > li.pmeio:before {
+        top: 0em;
     }
 }
